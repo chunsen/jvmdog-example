@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration debug="false" scan="false" scanPeriod="30 seconds">
 
-    <property name="server.name" value="example-springboot"/>
+    <property name="server.name" value="jvmdog-example-springboot"/>
     <property name="log.level" value="INFO"/>
     <property name="file.level" value="INFO"/>
     <property name="stdout.level" value="INFO"/>
@@ -78,10 +78,6 @@
 
     <!-- 日志输出级别 -->
         <logger name="org" level="INFO">
-           
-            <appender-ref ref="file-error-appdender" />
-        </logger>
-        <logger name="net.shuzun.loan" level="INFO">
            
             <appender-ref ref="file-error-appdender" />
         </logger>

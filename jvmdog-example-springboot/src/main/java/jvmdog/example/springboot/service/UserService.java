@@ -31,9 +31,12 @@ public class UserService {
     }
     
     public List<User> getList(){
+        User test = new User();
+        test.setName("test");
+        
         List<User> result = new ArrayList<>();
         User user = new User();
-        user.setName("test");
+        user.setName("anna");
         result.add(user);
         
         user = new User();
